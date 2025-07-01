@@ -31,8 +31,8 @@ const blogPosts = [
 ];
 
 const BlogSection: React.FC = () => (
-  <section className="bg-[#f7f7f7] py-16 px-2 md:px-0">
-    <div className="max-w-7xl mx-auto">
+  <section className="bg-[#f7f7f7] py-16">
+    <div className="max-w-7xl mx-auto px-6">
       {/* Section Header */}
       <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-12 gap-6">
         <div>

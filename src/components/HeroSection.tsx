@@ -12,8 +12,8 @@ const mainImage =
   'https://images.pexels.com/photos/1181696/pexels-photo-1181696.jpeg?auto=compress&w=800&h=600&fit=crop';
 
 const HeroSection: React.FC = () => (
-  <section className="relative bg-white min-h-[80vh] flex items-center justify-center px-4 md:px-0">
-    <div className="max-w-7xl w-full mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center py-16">
+  <section className="relative bg-white min-h-[80vh] flex items-center justify-center">
+    <div className="max-w-7xl w-full mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center py-16 px-6">
       {/* Left: Content */}
       <div>
         {/* Avatars + "10K+ Clients" */}
