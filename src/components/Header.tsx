@@ -323,8 +323,8 @@ const Header: React.FC = () => {
   }, []);
 
   return (
-    <header className="w-full bg-white shadow-sm">
-      <nav className="max-w-7xl mx-auto flex items-center justify-between py-4 px-6 lg:px-8" aria-label="Main Navigation">
+    <header className="w-full bg-white border-b border-gray-200">
+      <nav className="max-w-7xl mx-auto flex items-center justify-between py-8 px-6" aria-label="Main Navigation">
         {/* Logo */}
         <div className="flex items-center space-x-2">
           <Zap className="w-8 h-8 text-gray-900 font-bold" />
@@ -343,7 +343,7 @@ const Header: React.FC = () => {
               <li key={item.label} role="none">
                 <a
                   href={item.href}
-                  className="cursor-pointer hover:text-blue-600 transition"
+                  className="cursor-pointer hover:text-gray-600 transition"
                   role="menuitem"
                   tabIndex={0}
                 >
@@ -357,7 +357,7 @@ const Header: React.FC = () => {
         </ul>
 				<a
 					href="#"
-					className="text-lg font-bold text-gray-900 underline underline-offset-4 decoration-2 decoration-gray-900 hover:text-blue-600 transition"
+					className="text-lg font-bold text-gray-900 underline underline-offset-4 decoration-2 decoration-gray-900 hover:decoration-gray-600 hover:text-gray-600 transition"
 					tabIndex={0}
 				>
 					Join with us
